@@ -27,13 +27,11 @@
     "yup": "^1.2.0"
   },
   "scripts": {
-    "predeploy": "npm run built",
-    "deploy": "gh-pages -d built",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint:js": "eslint src/**/*.{ts,tsx}"
+    "lint:ts": "eslint src/**/*.{ts,tsx}"
   },
   "eslintConfig": {
     "extends": [
