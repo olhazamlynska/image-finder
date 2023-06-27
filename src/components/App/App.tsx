@@ -4,6 +4,9 @@ import * as API from '../../services/pixabayAPI';
 import { IImage } from '../../interfaces/AllInterfaces';
 import { imageMaper } from '../../utils/imageMapper';
 import { Searchbar } from '../Searchbar/Searchbar';
+import { LoadMorenBtn } from '../LoadMoreBtn';
+import { Loader } from '../Loader';
+import { Gallery } from '../Gallery';
 
 export function App() {
   const [query, setQuery] = useState('');
@@ -65,6 +68,11 @@ export function App() {
     <>
       <Searchbar onSubmit={handleSubmit} />
       {error && <p>Something went wrong, try again!</p>}
+      {isLoading && <Loader />}
+      {images && <Gallery images={images} />}
+      {images.length > 0 && totalHitsCondition > 0 && (
+        <LoadMorenBtn onClick={loadMore} />
+      )}
       <Toaster position="top-left" reverseOrder={false} />
     </>
   );
