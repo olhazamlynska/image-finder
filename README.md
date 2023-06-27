@@ -82,12 +82,6 @@ Change into the projectdirectory: `cd image-finder`, then:
 
 - [ ] Install the dependencies: `npm install`
 
-Clone this repository: git clone
-https://github.com/lisitsyna-anna/image-search-engine Change into the project
-directory: cd image-search-engine Install the dependencies: npm install Start
-the development server: npm start Open your browser and visit
-http://localhost:3000 to view the application.
-
 ### Usage
 
 To run the project, execute the following command:
