@@ -25,8 +25,8 @@
 
 # 📖 Image Finder Application <a name="about-project"></a>
 
-**[Image Finder Application]** is a simple image finder application, where you
-can search images by your search data..
+**Image Finder Application** is a simple image finder application, where you can
+search images by your search data..
 
 ## 🛠 Built With <a name="built-with"></a>
 
