@@ -36,7 +36,7 @@ export const Modal: React.FC<IModalProps> = ({
   return createPortal(
     <Overlay onClick={closeByBackdrop}>
       <ModalDiv>
-        <img src={largeImageURL} alt={tags}></img>
+        <img src={largeImageURL} alt={tags} />
       </ModalDiv>
     </Overlay>,
     modalRoot

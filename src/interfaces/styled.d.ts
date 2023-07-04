@@ -28,8 +28,8 @@ declare module 'styled-components' {
       bold: number;
     };
     lineHeights: {
-      body: 1.5;
-      heading: 1.125;
+      body: number;
+      heading: number;
     };
     borders: {
       none: string;
