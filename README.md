@@ -103,7 +103,7 @@ You can deploy this project using GitHubPages
 👤 **Olya Zamlynska**
 
 - GitHub: [@githubhandle](https://github.com/olhazamlynska)
-- Twitter: [@twitterhandle](https://twitter.com/olyazamlynska)
+- Twitter: [@twitterhandle](https://twitter.com/olhazamlynska)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/olhazamlynska)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
